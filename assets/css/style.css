@@ -135,8 +135,20 @@ main {
 #reasons p{
     padding: 0 20px;
 }
-
-
+#circle-cover-bg{
+    background: url(../images/reasons-image.webp) no-repeat top center / cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+#benefits-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Footer */
 #social-networks{
