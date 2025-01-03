@@ -31,13 +31,45 @@
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="signup.html"class="active">Sign Up</a></li>
+                <li><a href="signup.html" class="active">Sign Up</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+        <section id="signup">
+            <form method="POST" id="signup-form" action="https://formdump.codeinstitute.net">
+                <div>
+
+                    <h2><i class="fa-solid fa-heart-pulse"></i>LET'S GET YOU SIGNED UP!</h2>
+                    <label for="first-name">First Name</label>
+                    <input type="text" class="text-input" name="first-name" id="first-name" required>
+                    <br>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" class="text-input" name="last-name" id="last-name" required>
+                    <br>
+                    <label for="email-address">Email Address</label>
+                    <input type="text" class="text-input" name="email-address" id="email-address" required>
+
+                    <div>
+                        <input type="radio" name="running-preference" id="road" value="road">
+                        <label for="road">Road</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="running-preference" id="trail" value="trail">
+                        <label for="trail">Trail</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="running-preference" id="both" value="both">
+                        <label for="both">Both</label>
+                    </div>
+                    <input type="submit" value="Let's Run!" class="join-button">
+
+                </div>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
